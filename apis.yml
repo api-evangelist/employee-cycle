@@ -1,7 +1,33 @@
 aid: employee-cycle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/employee-cycle.png
 name: Employee Cycle
-description: Employee Cycle is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Employee Cycle is an HR analytics and reporting platform that bills itself as
+  "the first Employee Data Platform." It connects a company's HRIS, ATS, payroll,
+  performance, and engagement systems into one place and turns that data into
+  automated, real-time dashboards and reports covering headcount, turnover,
+  tenure, DEI, and other people metrics. The no-code dashboard and report builder
+  lets non-technical HR teams run multi-dimensional workforce analysis without
+  manual spreadsheets, with a claimed one-day implementation. Employee Cycle
+  integrates with 20+ HR systems (ADP, BambooHR, Greenhouse, Lattice, Rippling,
+  UKG, and more) and is aimed at enterprise HR teams, typically at organizations
+  with 500+ employees. The company is SOC 2 compliant (audited by Sensiba San
+  Filippo, monitored by Drata), GDPR and CCPA aligned, and built on the NIST
+  Cybersecurity Framework. It is backed by the Techstars accelerator and venture
+  funding. Employee Cycle offers pre-built data integrations rather than a public
+  developer REST API; this profile tracks the company's identity and security
+  posture in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/employee-cycle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +37,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- HR
+- Human Resources
+- People Analytics
+- HR Analytics
+- Workforce Analytics
+- Employee Data
+- Reporting
+- Dashboards
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +58,26 @@ maintainers:
 common:
 - type: Website
   url: https://employeecycle.com/
+- type: Blog
+  url: https://www.employeecycle.com/blog/
+- type: Login
+  url: https://app.employeecycle.com/login
+- type: Support
+  url: https://www.employeecycle.com/contact/
+- type: TermsOfService
+  url: https://www.employeecycle.com/terms/
+- type: PrivacyPolicy
+  url: https://www.employeecycle.com/privacy/
+- type: Compliance
+  url: https://www.employeecycle.com/features/security/
+- type: TrustCenter
+  url: https://www.employeecycle.com/features/security/
+- type: TrustCenter
+  url: security/employee-cycle-trust-center.yml
+- type: DomainSecurity
+  url: security/employee-cycle-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

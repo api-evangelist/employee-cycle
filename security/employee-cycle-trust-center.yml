@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.employeecycle.com/security/
+url: https://www.employeecycle.com/security/
+certifications:
+- SOC 2
+- GDPR
+- CCPA
+auditor: Sensiba San Filippo
+compliance_monitoring: Drata
+framework: NIST Cybersecurity Framework
+evidence:
+- source: https://www.employeecycle.com/security/
+  keywords:
+  - soc2
+  - gdpr
+- source: https://www.employeecycle.com/features/security/
+  keywords:
+  - soc 2
+  - gdpr
+  - ccpa
+  - drata
+  - nist
